@@ -10,6 +10,7 @@ import {
 import Navigation from "./components/Navigation";
 import Characters from "./pages/RickandMorty/Characters";
 import CharacterDetails from "./pages/RickandMorty/CharacterDetails";
+import Locations from "./pages/RickandMorty/Locations";
 
 function App() {
   return (
@@ -37,13 +38,5 @@ function Home() {
   );
 } 
 
-
-function Locations() {
-  return (
-    <div>
-      <h2>Gezegenler</h2>
-    </div>
-  );
-} 
 
 export default App;
